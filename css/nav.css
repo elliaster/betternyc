@@ -38,3 +38,15 @@ a {
 	text-decoration: none;
 	font-weight: 700;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #182A33;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #40525B;
+}

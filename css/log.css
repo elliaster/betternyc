@@ -27,7 +27,7 @@ input {
 	margin: 10px;
 }
 
-input[type=button] {
+input[type=submit] {
 	background: #263238;
 	color: white;
 	width: 50%;
@@ -55,4 +55,10 @@ a[data="link"] {
 .cont {
 	position: relative;
 	left: 150px;
+}
+
+#background-image {
+	height: 100%;
+	width: 104%;
+	transform: translateX(-20px);
 }

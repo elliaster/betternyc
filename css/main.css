@@ -3,6 +3,7 @@ body {
 	padding: 0px;
 	background-color: black;
 	font-family: helvetica, sans-serif;
+	scroll-snap-type: y mandatory;
 }
 
 object img {
@@ -25,4 +26,22 @@ object img {
 .bottomContent {
 	position: relative;
 	top: 50vh;
+}
+
+.cont {
+	scroll-snap-align: center;
+}
+
+#background-image {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+
+.filler {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	bottom: -100.5vh;
 }

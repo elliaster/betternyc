@@ -1,0 +1,40 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	background-color: #263238;
+	color: #ECEFF1;
+	font-family: helvetica, sans-serif;
+	height: 75px;
+}
+
+.title {
+	position: absolute;
+	margin: 25px 50px;
+	font-size: 2rem;
+	top: -5px;
+}
+
+.title span {
+	font-weight: 100;
+}
+
+ul {
+	list-style: none;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+a {
+	color: #ECEFF1;
+	text-decoration: none;
+	font-weight: 700;
+}

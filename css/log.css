@@ -1,7 +1,7 @@
 body {
 	background: #ECEFF1;
 	font-family: helvetica, sans-serif;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 form {
@@ -49,7 +49,6 @@ a[data="link"] {
 	position: absolute;
 	width: 50%;
 	height: calc(100% - 75px);
-	background-color: red;
 }
 
 .cont {
